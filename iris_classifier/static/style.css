@@ -9,6 +9,13 @@ body {
     height: 100vh;
 }
 
+.curved-image {
+    max-width: 100%;
+    border-radius: 15px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
 .container {
     background: rgb(249, 203, 203);
     padding: 2em;
