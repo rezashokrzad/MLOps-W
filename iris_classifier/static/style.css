@@ -1,12 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f98181;
+    background-color: #fde0e0;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(-45deg, #f92e2e, #fa7c7c, #ffcccb, #fde0e0);
+    background-size: 400% 400%;
+    animation: gradientBG 5s ease inifinite;
 }
 
 .curved-image {
@@ -67,5 +70,16 @@ a:hover {
     text-decoration: underline;
 }
 
-
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
 

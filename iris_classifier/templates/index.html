@@ -13,16 +13,16 @@
             <img src="./static/images/iris.png" alt="iris flower" class="curved-image">
             <form action="/predict" method="post">
                 <label for="sepal_length">Sepal Length:</label>
-                <input type="text" id="sepal_length" name="sepal_length" required>
+                <input type="text" id="sepal_length" name="sepal_length" required placeholder="in range 4.3 - 7.9 cm">
                 
                 <label for="sepal_width">Sepal Width:</label>
-                <input type="text" id="sepal_width" name="sepal_width" required>
+                <input type="text" id="sepal_width" name="sepal_width" required placeholder="in range 2.0 - 4.4 cm">
                 
                 <label for="petal_length">Petal Length:</label>
-                <input type="text" id="petal_length" name="petal_length" required>
+                <input type="text" id="petal_length" name="petal_length" required placeholder="in range 1.0 - 6.9 cm">
                 
                 <label for="petal_width">Petal Width:</label>
-                <input type="text" id="petal_width" name="petal_width" required>
+                <input type="text" id="petal_width" name="petal_width" required placeholder="in range 0.1 - 2.5 cm">
                 
                 <button type="submit">Classify</button>
             </form>
